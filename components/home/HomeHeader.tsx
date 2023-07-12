@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function HomeHeader() {
   return (
-    <div className="flex flex-col justify-center items-center font-maharlika text-6xl bg-[url('/images/bg_home.jpg')] bg-center bg-cover  bg-no-repeat h-screen w-full">
+    <div className="flex flex-col justify-center items-center font-maharlika text-6xl bg-[url('/images/bg_home.jpg')] bg-center bg-cover  bg-no-repeat lg:h-screen py-14 lg:py-0 w-full">
       <h2 className="text-white text-4xl drop-shadow-md">
         Nov. 4, 2023 - Antipolo
       </h2>
