@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Air Fryer",
+      "image": "../images/products/air_fryer.png"
+    },
+    {
+      "id": "2",
+      "title": "Rice Cooker",
+      "image": "../images/products/rice_cooker.png"
+    },
+    {
+      "id": "3",
+      "title": "Blender",
+      "image": "../images/products/blender.png"
+    },
+    {
+      "id": "4",
+      "title": "Induction Cooker",
+      "image": "../images/products/induction_cooker.png"
+    },
+    {
+      "id": "5",
+      "title": "Oven",
+      "image": "../images/products/oven.png"
+    },
+    {
+      "id": "6",
+      "title": "Gas Stove",
+      "image": "../images/products/gas_stove.png"
+    },
+    {
+      "id": "7",
+      "title": "Waffle Maker",
+      "image": "../images/products/waffle_maker.png"
+    },
+    {
+      "id": "8",
+      "title": "Electric Fan",
+      "image": "../images/products/electric_fan.png"
+    },
+    {
+      "id": "9",
+      "title": "Electric Kettle",
+      "image": "../images/products/electric_kettle.png"
+    },
+    {
+      "id": "10",
+      "title": "Air Purifier",
+      "image": "../images/products/air_purifier.png"
+    },
+    {
+      "id": "11",
+      "title": "Hair Dryer",
+      "image": "../images/products/hair_dryer.png"
+    },
+    {
+      "id": "12",
+      "title": "Microwave",
+      "image": "../images/products/microwave.png"
+    },
+    {
+      "id": "13",
+      "title": "vacuum",
+      "image": "../images/products/vacuum.png"
+    },
+    {
+      "id": "14",
+      "title": "Steam Iron",
+      "image": "../images/products/steam_iron.png"
+    }
+  ]
+}
