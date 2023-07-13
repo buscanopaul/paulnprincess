@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 
 function HomeHeader() {
-  const playerRef = useRef(null);
+  const playerRef = useRef<HTMLAudioElement>(null);
   const buttonRef = useRef(null);
   const [isPlay, setPlay] = useState(false);
 
