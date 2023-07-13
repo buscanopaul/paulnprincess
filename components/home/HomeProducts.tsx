@@ -10,7 +10,7 @@ function HomeProducts() {
     <div className="relative max-w-screen-xl mx-auto px-6 mt-20">
       <Title>Wishful Union: Unveiling Our Wedding Wishlist</Title>
       <div className="mb-14" />
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 5 }}>
+      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 5 }}>
         <Masonry columnsCount={5} gutter="10px">
           {data.products.map((product, i) => (
             <Link
