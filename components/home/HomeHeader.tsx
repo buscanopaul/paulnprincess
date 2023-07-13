@@ -18,7 +18,7 @@ function HomeHeader() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center font-maharlika text-6xl bg-[url('/images/bg_home.jpg')] bg-center bg-cover  bg-no-repeat lg:h-screen py-14 lg:py-0 w-full">
+    <div className="flex flex-col justify-center items-center font-maharlika text-6xl bg-[url('/images/bg_home.jpg')] bg-[#143C2B] bg-center bg-cover  bg-no-repeat lg:h-screen py-14 lg:py-0 w-full">
       <h2 className="text-white text-4xl drop-shadow-md animate-in fade-in slide-in-from-top-6 delay-75 duration-300">
         Nov. 4, 2023 - Antipolo
       </h2>
@@ -44,19 +44,28 @@ function HomeHeader() {
         onClick={play}
         className="flex items-center gap-2 animate-in fade-in slide-in-from-bottom-6 delay-75 duration-300"
       >
-        <Image
-          className={`my-5 transition-all duration-150 ${
-            isPlay ? "scale-105" : "scale-100"
-          }`}
-          src={`${
-            isPlay
-              ? "/images/video-pause-button.png"
-              : "/images/plug-and-play.png"
-          } `}
-          width={30}
-          height={30}
-          alt="Paul&Princess"
-        />
+        {isPlay ? (
+          <Image
+            className={`my-5 transition-all duration-150 ${
+              isPlay ? "scale-105" : "scale-100"
+            }`}
+            src="/images/video-pause-button.png"
+            width={30}
+            height={30}
+            alt="Paul&Princess"
+          />
+        ) : (
+          <Image
+            className={`my-5 transition-all duration-150 ${
+              isPlay ? "scale-105" : "scale-100"
+            }`}
+            src="/images/plug-and-play.png"
+            width={30}
+            height={30}
+            alt="Paul&Princess"
+          />
+        )}
+
         <p className="text-white text-lg">play me</p>
       </button>
     </div>
