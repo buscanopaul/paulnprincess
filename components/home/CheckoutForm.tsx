@@ -144,7 +144,7 @@ function CheckoutForm({ formRef }: CheckoutFormProps) {
           </form>
         </div>
       )}
-      <div ref={formRef} className="h-96" />
+      <div ref={formRef} className="h-40" />
     </div>
   );
 }
