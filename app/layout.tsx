@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { ReduxProvider } from "@/redux/provider";
 import localFont from "@next/font/local";
 import "./globals.css";
 
@@ -40,7 +41,7 @@ export default function RootLayout({
     >
       <body>
         <Header />
-        {children}
+        <ReduxProvider>{children}</ReduxProvider>
         <Footer />
       </body>
     </html>

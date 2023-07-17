@@ -36,8 +36,8 @@ function OurStory() {
     <div className="flex flex-col items-center mt-10">
       {DATA.map((data) => (
         <div key={data.id} className="mb-20 flex flex-col items-center">
-          <h3 className="text-3xl mb-4">August, 2016</h3>
-          <p className="max-w-screen-md text-center mb-8">
+          <h3 className="text-3xl mb-4 text-[#17392B]">August, 2016</h3>
+          <p className="max-w-screen-md text-center mb-8 text-[#17392B]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry standard dummy text ever
             since the 1500s, when an unknown printer took a galley of type and

@@ -44,28 +44,15 @@ function HomeHeader() {
         onClick={play}
         className="flex items-center gap-2 animate-in fade-in slide-in-from-bottom-6 delay-75 duration-300"
       >
-        {isPlay ? (
-          <Image
-            className={`my-5 transition-all duration-150 ${
-              isPlay ? "scale-105" : "scale-100"
-            }`}
-            src="/images/video-pause-button.png"
-            width={30}
-            height={30}
-            alt="Paul&Princess"
-          />
-        ) : (
-          <Image
-            className={`my-5 transition-all duration-150 ${
-              isPlay ? "scale-105" : "scale-100"
-            }`}
-            src="/images/plug-and-play.png"
-            width={30}
-            height={30}
-            alt="Paul&Princess"
-          />
-        )}
-
+        <Image
+          className={`my-5 transition-all duration-150 ${
+            isPlay ? "scale-105" : "scale-100"
+          }`}
+          src={`/images/${isPlay ? "video-pause-button" : "plug-and-play"}.png`}
+          width={30}
+          height={30}
+          alt="Paul&Princess"
+        />
         <p className="text-white text-lg">play me</p>
       </button>
     </div>
