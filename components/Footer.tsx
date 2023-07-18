@@ -18,6 +18,7 @@ function Footer() {
               width={100}
               height={100}
               className="mb-10 lg:mb-0 self-center lg:self-start"
+              alt="See you soon"
             />
           </div>
           <div>
