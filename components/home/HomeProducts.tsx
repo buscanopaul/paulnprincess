@@ -11,11 +11,11 @@ import CheckoutForm from "./CheckoutForm";
 import Title from "./Title";
 
 function HomeProducts() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
   const dispatch = useAppDispatch();
   const [loading, setLoading] = useState(false);
   const [active, setActive] = useState("");
-  const formRef = useRef(null);
+  const formRef = useRef<HTMLElement>(null);
 
   const fetchProducts = async () => {
     try {

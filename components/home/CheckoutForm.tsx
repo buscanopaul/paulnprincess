@@ -109,7 +109,7 @@ function CheckoutForm({ formRef }: CheckoutFormProps) {
             onSubmit={handleSubmit}
             id="form"
           >
-            <label for="name" className="text-[#17392B] mb-1 text-sm">
+            <label htmlFor="name" className="text-[#17392B] mb-1 text-sm">
               Name (anonymous)
             </label>
             <input
@@ -122,14 +122,17 @@ function CheckoutForm({ formRef }: CheckoutFormProps) {
                 isErrorName ? "border-red-500" : "bg-[#F8F9FD]"
               } h-10 rounded-lg px-2 text-[#17392B]`}
             />
-            <label for="message" className="mt-8 mb-1 text-[#17392B] text-sm">
+            <label
+              htmlFor="message"
+              className="mt-8 mb-1 text-[#17392B] text-sm"
+            >
               Message (optional)
             </label>
             <textarea
               id="message"
               name="message"
-              rows="4"
-              cols="50"
+              rows={4}
+              cols={50}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               className="border bg-[#F8F9FD] rounded-lg p-2 text-[#17392B]"
