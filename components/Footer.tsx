@@ -17,7 +17,7 @@ function Footer() {
               src="/images/footer_invited.png"
               width={100}
               height={100}
-              className="mb-10 lg:mb-0 self-center lg:self-start"
+              className="mb-10 lg:mb-0 self-center lg:self-start hover:animate-spin duration-100"
               alt="See you soon"
             />
           </div>
