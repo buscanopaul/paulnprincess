@@ -9,7 +9,12 @@ type FooterImageProps = {
 function FooterImage({ description, date }: FooterImageProps) {
   return (
     <div className="flex flex-col items-center gap-5">
-      <Image src="/images/footer_image.png" width={240} height={240} />
+      <Image
+        src="/images/footer_image.png"
+        width={240}
+        height={240}
+        alt="November 4"
+      />
       <div className="bg-gradient-to-b from-[#143C2B] to-[#DABF94] h-20 w-[1px]" />
       <div>
         <FooterDate>{date}</FooterDate>

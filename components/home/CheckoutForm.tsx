@@ -71,7 +71,12 @@ function CheckoutForm({ formRef }: CheckoutFormProps) {
     <div className="relative max-w-screen-sm mx-auto px-6 mt-20">
       {isPending && (
         <div className="bg-[#F3E3E3] absolute z-10 h-full w-full items-center justify-center flex flex-col">
-          <Image src="/images/loading.gif" width={300} height={300} alt="" />
+          <Image
+            src="/images/loading.gif"
+            width={300}
+            height={300}
+            alt="loading"
+          />
           <h4 className="text-[#17392B] mt-7">Loading...</h4>
         </div>
       )}
