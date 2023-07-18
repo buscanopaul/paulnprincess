@@ -5,7 +5,7 @@ const nextConfig = {
     serverActions: true,
   },
   images: {
-    domains: [process.env.NEXT_PUBLIC_SUPABASE_HOSTNAME],
+    domains: ["tfhrbqjlfxpvafjyjoyx.supabase.co"],
   },
 };
 
