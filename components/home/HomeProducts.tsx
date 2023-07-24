@@ -58,7 +58,7 @@ function HomeProducts() {
     <div className="relative max-w-screen-xl mx-auto px-6 mt-20">
       <Title>Wishful Union: Unveiling Our Wedding Wishlist</Title>
       <p className="text-center mt-10 text-xs text-gray-500">
-        *This is merely an example; any brands will work
+        *This is merely an example & optional; any brands will work
       </p>
       <div className="mb-14" />
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 5 }}>
