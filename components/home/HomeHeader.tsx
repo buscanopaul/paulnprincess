@@ -2,6 +2,9 @@
 
 import Image from "next/image";
 import { useRef, useState } from "react";
+import imageCenter from "../../public/images/bg_center.png";
+import playImage from "../../public/images/plug-and-play.png";
+import pauseImage from "../../public/images/video-pause-button.png";
 
 function HomeHeader() {
   const playerRef = useRef<HTMLAudioElement>(null);
@@ -31,10 +34,11 @@ function HomeHeader() {
       <audio loop src={"/sound/audio.mp3"} autoPlay ref={playerRef} />
       <Image
         className="my-5 animate-in fade-in slide-in-from-top-6 delay-200 duration-500"
-        src="/images/bg_center.png"
+        src={imageCenter}
         width={600}
         height={600}
         alt="Paul&Princess"
+        placeholder="blur"
       />
       <h2 className="text-white text-2xl drop-shadow-md animate-in fade-in slide-in-from-bottom-6 delay-150 duration-300">
         #PrincessSavedTheBestPaulast
@@ -44,15 +48,25 @@ function HomeHeader() {
         onClick={play}
         className="flex items-center gap-2 animate-in fade-in slide-in-from-bottom-6 delay-75 duration-300"
       >
-        <Image
-          className={`my-5 transition-all duration-150 ${
-            isPlay ? "scale-105" : "scale-100"
-          }`}
-          src={`/images/${isPlay ? "video-pause-button" : "plug-and-play"}.png`}
-          width={30}
-          height={30}
-          alt="Paul&Princess"
-        />
+        {isPlay ? (
+          <Image
+            className={`my-5 transition-all duration-150 scale-105`}
+            src={pauseImage}
+            width={30}
+            height={30}
+            alt="Paul&Princess"
+            placeholder="blur"
+          />
+        ) : (
+          <Image
+            className={`my-5 transition-all duration-150 scale-100`}
+            src={playImage}
+            width={30}
+            height={30}
+            alt="Paul&Princess"
+            placeholder="blur"
+          />
+        )}
         <p className="text-white text-lg">play me</p>
       </button>
     </div>

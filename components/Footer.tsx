@@ -1,4 +1,5 @@
 import Image from "next/image";
+import footerInvited from "../public/images/footer_invited.png";
 import FooterImage from "./footer/FooterImage";
 import FooterTitle from "./footer/FooterTitle";
 
@@ -14,11 +15,12 @@ function Footer() {
               <FooterTitle>Date</FooterTitle>
             </div>
             <Image
-              src="/images/footer_invited.png"
+              src={footerInvited}
               width={100}
               height={100}
               className="mb-10 lg:mb-0 self-center lg:self-start hover:animate-spin duration-100"
               alt="See you soon"
+              placeholder="blur"
             />
           </div>
           <div>

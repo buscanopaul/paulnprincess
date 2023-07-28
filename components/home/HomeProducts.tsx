@@ -7,6 +7,7 @@ import { supabase } from "@/supabase";
 import Image from "next/image";
 import { useRef, useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import approved from "../../public/images/approved.png";
 import CheckoutForm from "./CheckoutForm";
 import Title from "./Title";
 
@@ -86,10 +87,11 @@ function HomeProducts() {
                 {product.isTaken && (
                   <Image
                     className="absolute top-1/3 left-[60px]"
-                    src="/images/products/approved.png"
+                    src={approved}
                     width={100}
                     height={100}
                     alt=""
+                    placeholder="blur"
                   />
                 )}
                 <h4 className="text-white text-center pb-5 text-lg">

@@ -1,4 +1,9 @@
 import Image from "next/image";
+import colorGuestMen from "../../public/images/dresscode/color_guest_men.png";
+import guestLongSleeve from "../../public/images/dresscode/guest_longsleeve.png";
+import guestPants from "../../public/images/dresscode/guest_pants.png";
+import guestPolo from "../../public/images/dresscode/guest_polo.png";
+import guestShoes from "../../public/images/dresscode/guest_shoes.png";
 
 function GuestsGentlemanDressCode() {
   return (
@@ -8,36 +13,41 @@ function GuestsGentlemanDressCode() {
       </h2>
       <div className="flex items-center gap-5 mt-5 flex-wrap">
         <Image
-          src="/images/dresscode/color_guest_men.png"
+          src={colorGuestMen}
           width={150}
           height={150}
           alt="Entourage"
           className="mr-10"
+          placeholder="blur"
         />
         <Image
-          src="/images/dresscode/guest_polo.png"
+          src={guestPolo}
           width={150}
           height={150}
           alt="Entourage"
+          placeholder="blur"
         />
         <h3>or</h3>
         <Image
-          src="/images/dresscode/guest_longsleeve.png"
+          src={guestLongSleeve}
           width={140}
           height={140}
           alt="Entourage"
+          placeholder="blur"
         />
         <Image
-          src="/images/dresscode/guest_pants.png"
+          src={guestPants}
           width={60}
           height={60}
           alt="Entourage"
+          placeholder="blur"
         />
         <Image
-          src="/images/dresscode/guest_shoes.png"
+          src={guestShoes}
           width={150}
           height={150}
           alt="Entourage"
+          placeholder="blur"
         />
       </div>
     </div>

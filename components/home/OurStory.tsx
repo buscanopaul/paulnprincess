@@ -1,4 +1,5 @@
 import Image from "next/image";
+import leaves from "../../public/images/leaves.png";
 
 const DATA = [
   {
@@ -76,11 +77,12 @@ function OurStory() {
           />
           {data.id != DATA.length && (
             <Image
-              src="/images/leaves.png"
+              src={leaves}
               width={70}
               height={70}
               alt="Entourage"
               className="mt-8"
+              placeholder="blur"
             />
           )}
         </div>

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import entourage from "../../public/images/entourage.png";
 import DressCode from "./DressCode";
 import OurPhotos from "./OurPhotos";
 import OurStory from "./OurStory";
@@ -63,10 +64,11 @@ function HomeTabs() {
         className={`${active == 2 ? "block" : "hidden"} justify-center flex`}
       >
         <Image
-          src="/images/entourage.png"
+          src={entourage}
           width={500}
           height={500}
           alt="Entourage"
+          placeholder="blur"
         />
       </div>
       <div className={`${active == 3 ? "block" : "hidden"}`}>

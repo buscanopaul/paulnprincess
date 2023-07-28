@@ -1,4 +1,6 @@
 import Image from "next/image";
+import bridesMaid from "../../public/images/dresscode/bridesmaid.png";
+import colorBridesmaid from "../../public/images/dresscode/color_bridesmaid.png";
 
 function BridesMaidDressCode() {
   return (
@@ -8,17 +10,19 @@ function BridesMaidDressCode() {
       </h2>
       <div className="flex items-center gap-5 mt-5 flex-wrap">
         <Image
-          src="/images/dresscode/color_bridesmaid.png"
+          src={colorBridesmaid}
           width={150}
           height={150}
           alt="Entourage"
           className="mr-10"
+          placeholder="blur"
         />
         <Image
-          src="/images/dresscode/bridesmaid.png"
+          src={bridesMaid}
           width={100}
           height={100}
           alt="Entourage"
+          placeholder="blur"
         />
       </div>
     </div>
