@@ -88,6 +88,7 @@ function CheckoutForm({ formRef }: CheckoutFormProps) {
           <Title>Thank you</Title>
         </div>
       )}
+      <div ref={formRef} />
       {selectedValue && selectedValue.productId != "" && (
         <div>
           <Title>Oh my God!</Title>
@@ -152,7 +153,7 @@ function CheckoutForm({ formRef }: CheckoutFormProps) {
           </form>
         </div>
       )}
-      <div ref={formRef} className="h-40" />
+      <div className="h-40" />
     </div>
   );
 }
