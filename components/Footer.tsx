@@ -5,8 +5,8 @@ import FooterTitle from "./footer/FooterTitle";
 
 function Footer() {
   return (
-    <div>
-      <div className="max-w-screen-xl mx-auto px-6 bg-[#DABF94] py-14">
+    <div className="relative bg-[#DABF94]">
+      <div className="max-w-screen-xl mx-auto px-6  py-14">
         <div className="flex justify-around flex-col items-center lg:flex-row">
           <div className="pl-5 flex flex-col gap-20">
             <div className="flex flex-col md:flex-row lg:flex-col md:gap-10 lg:gap-0">
