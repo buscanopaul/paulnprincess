@@ -3,6 +3,27 @@ import footerInvited from "../public/images/footer_invited.png";
 import FooterImage from "./footer/FooterImage";
 import FooterTitle from "./footer/FooterTitle";
 
+const DATA = [
+  {
+    id: "1",
+    image: require("../public/images/footer_one.png"),
+    description: "WE WILL MEET AGAIN",
+    date: "November",
+  },
+  {
+    id: "2",
+    image: require("../public/images/footer_two.png"),
+    description: "SEE YOU SOON",
+    date: "04",
+  },
+  {
+    id: "3",
+    image: require("../public/images/footer_three.png"),
+    description: "THE NEXT JOURNEY",
+    date: "2023",
+  },
+];
+
 function Footer() {
   return (
     <div className="relative bg-[#DABF94]">
@@ -25,9 +46,15 @@ function Footer() {
           </div>
           <div>
             <div className="flex gap-10">
-              <FooterImage description="WE WILL MEET AGAIN" date="November" />
-              <FooterImage description="SEE YOU SOON" date="04" />
-              <FooterImage description="THE NEXT JOURNEY" date="2023" />
+              {DATA.map((data) => (
+                <div key={data.id}>
+                  <FooterImage
+                    image={data.image}
+                    description={data.description}
+                    date={data.date}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>
