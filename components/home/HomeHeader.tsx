@@ -32,13 +32,11 @@ function HomeHeader() {
         Le Blanc Hotel
       </h5>
       <audio loop src={"/sound/audio.mp3"} autoPlay ref={playerRef} />
-      <Image
-        className="my-5 animate-in fade-in slide-in-from-top-6 delay-200 duration-500"
-        src={imageCenter}
-        width={600}
-        height={600}
+      <img
+        src="images/bg_center.png"
         alt="Paul&Princess"
-        placeholder="blur"
+        width="600"
+        height="600"
       />
       <h2 className="text-white text-2xl drop-shadow-md animate-in fade-in slide-in-from-bottom-6 delay-150 duration-300">
         #PrincessSavedTheBestPaulast
