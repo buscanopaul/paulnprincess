@@ -23,10 +23,10 @@ function HomeHeader() {
   return (
     <div className="flex flex-col justify-center items-center font-maharlika text-6xl bg-[url('/images/bg_home.jpg')] bg-[#143C2B] bg-center bg-cover  bg-no-repeat lg:h-screen py-14 lg:py-0 w-full">
       <h2 className="text-white text-4xl drop-shadow-md animate-in fade-in slide-in-from-top-6 delay-75 duration-300">
-        Nov. 4, 2023 - Antipolo
+        Nov. 4, 2023
       </h2>
       <h5 className="text-lg text-white w-[400px] text-center drop-shadow-md animate-in fade-in slide-in-from-top-6 delay-150 duration-300">
-        Nuestra Señora dela Annunciata Parish
+        San Antonio de Padua Parish, Antipolo
       </h5>
       <h5 className="text-white text-2xl drop-shadow-md animate-in fade-in slide-in-from-top-6 delay-150 duration-300">
         Le Blanc Hotel
