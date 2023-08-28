@@ -63,13 +63,18 @@ function HomeTabs() {
       <div
         className={`${active == 2 ? "block" : "hidden"} justify-center flex`}
       >
-        <Image
+        {/* <Image
           src={entourage}
           width={500}
           height={500}
           alt="Entourage"
           placeholder="blur"
-        />
+        /> */}
+        <iframe
+          loading="lazy"
+          className="w-[541px] h-screen border-y-2 border-black"
+          src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFs1GI-828&#x2F;view?embed"
+        ></iframe>
       </div>
       <div className={`${active == 3 ? "block" : "hidden"}`}>
         <DressCode />
