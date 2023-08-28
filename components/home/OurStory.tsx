@@ -54,7 +54,7 @@ const DATA = [
   {
     id: 8,
     date: "December 17, 2022",
-    image: "pamamanhikan",
+    image: "pamamanhikantwo",
     description:
       "Paul decided to take the traditional Filipino step of Pamamanhikan. With utmost respect and sincerity, he and his family visited the home of his partner to formally ask for her hand in marriage. The gathering was filled with warmth, laughter, and the celebration of two families coming together to bless their union. It was a cherished day that solidified their love, honoring tradition while embracing a future filled with love and unity.",
   },
