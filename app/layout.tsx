@@ -39,6 +39,16 @@ export default function RootLayout({
       lang="en"
       className={`${maharlika.variable} ${bdscript.variable} font-sans`}
     >
+      <head>
+        <meta property="og:image" content="https://i.ibb.co/gWVNSgj/og.jpg" />
+        <meta property="og:title" content="Paul & Princess" />
+        <meta
+          property="og:description"
+          content="##PrincessSavedTheBestPaulast"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+      </head>
       <body>
         <Header />
         <ReduxProvider>{children}</ReduxProvider>
