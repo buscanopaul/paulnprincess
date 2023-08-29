@@ -40,11 +40,14 @@ export default function RootLayout({
       className={`${maharlika.variable} ${bdscript.variable} font-sans`}
     >
       <head>
-        <meta property="og:image" content="https://i.ibb.co/gWVNSgj/og.jpg" />
-        <meta property="og:title" content="Paul & Princess" />
+        <meta
+          property="og:image"
+          content="https://paulnprincess.vercel.app/images/og.jpg"
+        />
+        <meta property="og:title" content="#PrincessSavedTheBestPaulast" />
         <meta
           property="og:description"
-          content="##PrincessSavedTheBestPaulast"
+          content="#PrincessSavedTheBestPaulast"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
