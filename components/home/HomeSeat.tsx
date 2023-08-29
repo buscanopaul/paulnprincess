@@ -14,7 +14,7 @@ function HomeSeat() {
         <div className="block md:hidden">
           <iframe
             loading="lazy"
-            className="w-full h-[663px] border-black border-x-2"
+            className="w-full h-[635px] border-black border-x-2"
             src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFs1Ecr9HY&#x2F;view?embed"
           ></iframe>
         </div>

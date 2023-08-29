@@ -72,7 +72,7 @@ function HomeTabs() {
         /> */}
         <iframe
           loading="lazy"
-          className="w-[541px] h-screen border-y-2 border-black"
+          className="w-[541px] h-[633px] md:h-[760px] border-x-2 border-black"
           src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFs1GI-828&#x2F;view?embed"
         ></iframe>
       </div>
