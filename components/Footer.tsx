@@ -30,7 +30,7 @@ function Footer() {
       <div className="max-w-screen-xl mx-auto px-6  py-14">
         <div className="flex justify-around flex-col items-center lg:flex-row">
           <div className="pl-5 flex flex-col gap-20">
-            <div className="flex flex-col md:flex-row lg:flex-col md:gap-10 lg:gap-0">
+            <div className="flex flex-row lg:flex-col gap-10 lg:gap-0 md:max-w-auto max-w-sm flex-wrap justify-center">
               <FooterTitle>Save</FooterTitle>
               <FooterTitle>The</FooterTitle>
               <FooterTitle>Date</FooterTitle>
@@ -45,7 +45,7 @@ function Footer() {
             />
           </div>
           <div>
-            <div className="flex gap-10">
+            <div className="flex flex-col md:flex-row gap-10">
               {DATA.map((data) => (
                 <div key={data.id}>
                   <FooterImage
