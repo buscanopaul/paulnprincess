@@ -111,7 +111,7 @@ function CheckoutForm({ formRef }: CheckoutFormProps) {
             id="form"
           >
             <label htmlFor="name" className="text-[#17392B] mb-1 text-sm">
-              Name (anonymous)
+              Name (anonymous or secret name)
             </label>
             <input
               type="text"
